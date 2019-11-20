@@ -1,0 +1,26 @@
+{
+  "name": "homework05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YermakhanAmanbekov/home-work-05.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YermakhanAmanbekov/home-work-05/issues"
+  },
+  "homepage": "https://github.com/YermakhanAmanbekov/home-work-05#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.0"
+  }
+}
