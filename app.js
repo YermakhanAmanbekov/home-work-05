@@ -11,7 +11,7 @@ app.get('/message/create', function (req, res) {
     res.render('create');
 });
 
-app.put('/message/pp', bp, function(req, res) {
+app.post('/message/show', bp, function(req, res) {
     res.render('show', {data: req.body});
 });
 
